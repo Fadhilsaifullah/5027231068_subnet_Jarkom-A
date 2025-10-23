@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <!-- Scroll vertical di dalam scroll horizontal -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Judul -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello There"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingBottom="16dp" />
+
+            <!-- Konten lebar (untuk scroll horizontal) -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#EEEEEE"
+                android:padding="10dp">
+
+                <!-- Kolom 1 -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="40dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Informasi pembuat"
+                        android:textStyle="bold"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nama saya Mochamad Fadhil Saifullah, saat ini saya sedang menempuh pendidikan di bidang Teknologi Informasi di Institut Teknologi Sepuluh Nopember. Saya adalah mahasiswa Teknologi Informasi semester empat dengan minat dalam teknologi, seni, dan olahraga. Saya aktif berpartisipasi dalam berbagai kegiatan baik di dalam maupun di luar kampus."
+                        android:paddingTop="8dp"
+                        android:width="400dp" />
+                </LinearLayout>
+
+                <!-- Kolom 2 -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="40dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Informasi pembuat"
+                        android:textStyle="bold"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hanya ada dua yang bisa dipercaya, pertama tuhan, kemudian data"
+                        android:paddingTop="8dp"
+                        android:width="400dp" />
+                </LinearLayout>
+
+                <!-- Kolom 3 -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Informasi pembuat"
+                        android:textStyle="bold"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:width="2000dp"
+                        android:paddingTop="20dp"
+                        android:text="Himpunan Mahasiswa Teknologi Informasi ITS\nSurabaya, Jawa Timur\nStaff Hubungan Luar\t\tFebruari 2025 – Sekarang\nSaya dipercaya sebagai PIC untuk kegiatan benchmark. Tugas saya adalah menganalisis kondisi internal HMIT (Himpunan Mahasiswa Teknologi Informasi) guna memetakan aspek-aspek yang perlu diperbaiki. Setelah itu, saya membuat daftar himpunan mahasiswa (Hima) yang sesuai dengan kriteria yang telah ditetapkan dan menyusun rencana pendekatan. Tahap terakhir, saya melakukan pendekatan kepada Hima yang menjadi target dan berdiskusi untuk finalisasi acara benchmark bersama Hima tersebut.\n\nITS MUN CLUB\nSurabaya, Jawa Timur\nStaff Strategic Partnership\t\tFebruari 2025 – Sekarang\nSaya diberi tugas untuk mencari mitra potensial, serta mengidentifikasi dan approach pihak eksternal sesuai dengan kebutuhan ITS MUN Club.\n\nAnargya ITS\nSurabaya, Jawa Timur\nInternship Financial Support\t\tNovember 2024 – Desember 2024\nSaya mempelajari seluk-beluk pendanaan dalam tim riset, mempelajari manajemen proyek dalam bentuk scrum dan mempelajari perencanaan bisnis dan framework yang digunakan dalam perencanaan bisnis." />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="May the force be with you"
+                        android:paddingTop="8dp"
+                        android:width="400dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Konten tambahan agar bisa scroll ke bawah -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="2000dp"
+                android:paddingTop="20dp"
+                android:text="RIWAYAT PELATIHAN\nLatihan Keterampilan Mahasiswa Wirausaha 2023\nPelatihan Karya Tulis Ilmiah Tingkat Dasar (PKTI-TD)\nLatihan Keterampilan Manajemen Mahasiswa Pra-Tingkat Dasar IV FTEIC (LKMM Pra-TD IV FTEIC)\nLatihan Keterampilan Manajemen Mahasiswa Tingkat Dasar V HMIT (LKMM TD V HMIT)" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BOJONEGORO\n1 Juni 2004"
+                android:paddingTop="20dp"
+                android:width="2000dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What doesnt kill you\nMakes you wish it did\nGot your heart in a headlock\nAnd your bones begin to grit\n\nAnd the tears fall like rain\nYou're a mess, you're a wreck\nYou're a hurricane\n\nAnd you feel so far away\nLike a ghost, like a dream\nLike a memory\n\nBut you're not alone\nYou're not alone\nI'll be here for you\nYou're not alone\n\nAnd I'm drowning, drowning\nIn your ocean of pain\nAnd I'm trying to save you\nBut you're pulling me down\n\nWith every breath you take\nYou're sinking deeper and deeper\nAnd I can't reach you\nI can't save you\n\nBut I'll try\nI'll try\nI'll try\n\nTo keep your head above water\nKeep your head above water\nKeep your head above water\n\n'Cause what doesn't kill you\nMakes you wish it did\nGot your heart in a headlock\nAnd your bones begin to grit\n\nAnd the tears fall like rain\nYou're a mess, you're a wreck\nYou're a hurricane\n\nAnd you feel so far away\nLike a ghost, like a dream\nLike a memory\n\nBut you're not alone\nYou're not alone\nI'll be here for you\nYou're not alone\n\nAnd I'm drowning, drowning\nIn your ocean of pain\nAnd I'm trying to save you\nBut you're pulling me down\n\nWith every breath you take\nYou're sinking deeper and deeper\nAnd I can't reach you\nI can't save you\n\nBut I'll try\nI'll try\nI'll try\n\nTo keep your head above water\nKeep your head above water\nKeep your head above water\n\nDon't let yourself drown\nDon't let yourself drown\nDon't let yourself drown\n\n'Cause I'll be here\nI'll be here\nI'll be here\n\nTo keep your head above water\nKeep your head above water\nKeep your head above water\n\nDon't let yourself drown\nDon't let yourself drown\nDon't let yourself drown\n\nYou're not alone\nYou're not alone\nYou're not alone\n\nI'll be here for you\nYou're not alone."
+                android:paddingTop="20dp"
+                android:width="2000dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laparnya..."
+                android:paddingTop="20dp"
+                android:width="2000dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</HorizontalScrollView>
